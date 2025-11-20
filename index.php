@@ -23,7 +23,7 @@ if (!in_array($cat, ['sub', 'dub'])) { $cat = 'sub'; }
 // NOTE: Some earlier examples had malformed URL with extra '?' after animeEpisodeId.
 // Use standard query param format: ?animeEpisodeId=...&ep=...&server=...&category=...
 $apiUrl = sprintf(
-    "%s?animeEpisodeId=%s&ep=%s&server=hd-2&category=%s",
+    "%s?animeEpisodeId=%s?ep=%s&server=hd-2&category=%s",
     $API_BASE,
     urlencode($id),
     urlencode($ep),
