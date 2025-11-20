@@ -52,7 +52,7 @@ $newOn     = $home['recommendedAnimes'] ?? $home['new_on'] ?? $home['new'] ?? []
     <!-- Swiper (for slider) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://aniwatchtv.to/css/styles.min.css?v=1.1" />
     <!-- Font Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="" crossorigin="anonymous"/>
 
